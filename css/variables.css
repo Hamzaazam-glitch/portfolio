@@ -1,0 +1,26 @@
+:root {
+    /* Colors */
+    --bg-color: #0a0a0a;
+    --bg-light: #111111;
+    --text-color: #e0e0e0;
+    --text-muted: #a0a0a0;
+    --primary-color: #00d4ff; /* Neon Blue */
+    --secondary-color: #7928ca; /* Purple */
+    --accent-color: #ff0080; /* Pinkish Red */
+    --card-bg: #1a1a1a;
+    --border-color: #333;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    --gradient-text: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+
+    /* Typography */
+    --font-main: 'Inter', sans-serif;
+    
+    /* Spacing */
+    --section-padding: 80px 0;
+    --container-width: 1100px;
+    
+    /* Transitions */
+    --transition-fast: 0.3s ease;
+}
